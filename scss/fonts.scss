@@ -1,0 +1,8 @@
+@import "bourbon";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,500,300,700&subset=latin,cyrillic);
+@include font-face("SegoeUIBold", "../fonts/SegoeUIBold/SegoeUIBold", $file-formats: eot woff ttf);
+@include font-face("SegoeUIRegular", "../fonts/SegoeUIRegular/SegoeUIRegular", $file-formats: eot woff ttf);
+
+@include font-face("SegoeUI", "../fonts/SegoeUIBold/SegoeUIBold", $file-formats: eot woff ttf);
+@include font-face("SegoeUI", "../fonts/SegoeUIRegular/SegoeUIRegular", $file-formats: eot woff ttf);
